@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+	body{
+	  background-image:url("https://carto.com/blog/img/posts/2019/2019-09-13-weather-source-modern-data-stream-analysis/weather-source-header.png");
+	  background-size: cover;
+	}
+ </style>
+</head>
+<title>Weather API </title>
+<body>
+<center><h1>Weather Trend Analyzer</h1>
+    <form action = "http://localhost:3000/submit" method="POST">
+            Location:  <input type='text' id='location' name='location'>
+            <br><br>
+            <input type='submit' onclick='Next()' value='Analyze'>
+   </form>
+<script>
+  function Next() {
+    if((document.getElementById('location').value.length)==0)
+    alert("Please Enter a Location!");
+    else {
+      alert("Please Wait while we are analysing!")
+    }
+  }
+</script>
+</center>
+</body>
+</html>
