@@ -8,5 +8,24 @@ This project uses is based on Micro-service architecture and it use 3 micro-serv
 ## Authors
 - [Saran Sappa](https://github.com/saransappa)
 - [Mullapudi Taraka Vignesh](https://github.com/mtarakavignesh)
-- Mudili Sandeep Naidu
+- [Mudili Sandeep Naidu](https://github.com/sandeepnaidumudili)
 - [Gurijala Venkata Sai Sundar](https://github.com/7h3r4v3n)
+
+## Output
+- ### Our User Interface
+![UI](./images/UI.png)
+### Our analysis for Delhi
+- ### Temperature trends
+![temp1](./images/temp1.png)
+- ### Humidity trends
+![humid1](./images/humid1.png)
+- ### Visibility trends
+![visib1](./images/visib1.png)
+- ### Temperature trends over a range of years
+![temp1](./images/temp_avg.png)
+- ### Humidity trends over a range of years
+![temp1](./images/humid_avg.png)
+- ### Visibility trends over a range of years
+![temp1](./images/visib_avg.png)
+
+
